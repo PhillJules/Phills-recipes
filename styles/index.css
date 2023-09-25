@@ -21,3 +21,20 @@ body{
 h1, h2 {
   text-decoration: underline;
 }
+
+.menu {
+  background-image: url(../images/menubg.jpg);
+  width: 50%;
+  margin: 15px auto;
+  height: 100%;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+
+.menu li {
+  margin-bottom: 8px;
+  padding: 5px;
+  list-style-type: none;
+  text-align: center;
+
+}
