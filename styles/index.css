@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  /* width: 100vh; */
+  margin: 0;
+}
+
+.banner {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+body{
+  background-image: url(../images/paperbg.jpg);
+  /* background-repeat: no-repeat; */
+  /* background: cover; */
+  text-align: center;
+}
+
+h1, h2 {
+  text-decoration: underline;
+}
