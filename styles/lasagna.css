@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  /*  */
+}
+
+body {
+  /* text-align: center; */
+  background-image: url(../images/recipebg.jpg);
+  background-size: cover;
+}
+
+ul {
+
+  list-style-type: none;
+}
+
+.ingredients li {
+  margin-bottom: 8px;
+  padding: 5px;
+  text-align: center;
+}
+
+.ingredients h2 {
+  text-align: center;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+.instructions {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.meal {
+  margin: 0 auto;
+  display: block;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.steps li {
+  margin-bottom: 8px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.steps h2 {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: italiano, cursive;
+  padding-left: 25px;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+}
