@@ -62,7 +62,9 @@ h1 {
 a {
   color: white;
   font-size: 18px;
+}
+
+.button {
   text-align: center;
-  display: block;
   margin-bottom: 10px;
 }

@@ -12,7 +12,7 @@ body {
 
 ul {
 
-  list-style-type: none;
+  list-style-type: circle ;
 }
 
 /* .ingredients{
@@ -79,7 +79,12 @@ h1 {
 a {
   color: white;
   font-size: 18px;
+  /* text-align: center; */
+  /* display: block; */
+
+}
+
+.button {
   text-align: center;
-  display: block;
   margin-bottom: 10px;
 }
