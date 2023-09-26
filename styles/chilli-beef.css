@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  /* width: 100%; */
+  margin: 0;
+}
+
+body {
+  background-image: url(../images/chinesebg.jpg);
+  background-size: cover;
+  color: black;
+}
+
+ul {
+
+  list-style-type: circle ;
+}
+
+.ingredients{
+  background-color: rgba(255, 255, 255, .3);
+  margin-top: 20px;
+}
+
+.ingredients li {
+  margin-bottom: 8px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.ingredients h2 {
+  text-align: center;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+.instructions {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.meal-pic {
+  margin: 0 auto;
+  display: block;
+}
+
+.description {
+  background-color: rgba(255, 255, 255, .3);
+  padding: 10px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.steps {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.steps li {
+  margin-bottom: 8px;
+  padding: 5px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, .3);
+  color: black;
+}
+
+.steps ol {
+  /* color: white; */
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.steps h2 {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: 'Sofia', cursive;;
+  padding-left: 25px;
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+  font-size: 18px;
+  /* text-align: center; */
+  /* display: block; */
+
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 10px;
+}

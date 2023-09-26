@@ -59,6 +59,7 @@ p {
 
 .steps {
   margin-top: 20px;
+  background-color: rgba(255, 255, 255, .2);
 }
 
 .steps li {
@@ -76,8 +77,6 @@ p {
 
 .steps h2 {
   text-decoration: underline;
-  /* color: white; */
-  background-color: rgba(255, 255, 255, .2);
 }
 /*
 h2 {
