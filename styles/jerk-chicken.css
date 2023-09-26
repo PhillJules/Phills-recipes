@@ -7,7 +7,7 @@
 body {
   background-image: url(../images/chickenbg.jpg);
   background-size: cover;
-  color: white;
+  color: black;
 }
 
 ul {
@@ -15,10 +15,15 @@ ul {
   list-style-type: none;
 }
 
+/* .ingredients{
+  background-color: white;
+} */
+
 .ingredients li {
   margin-bottom: 8px;
   padding: 5px;
   text-align: center;
+  background-color: rgba(255, 255, 255, .3);
 }
 
 .ingredients h2 {
@@ -47,6 +52,13 @@ p {
   margin-bottom: 8px;
   padding: 5px;
   font-weight: 600;
+  background-color: rgba(255, 255, 255, .3);
+  color: black;
+}
+
+.steps ol {
+  /* color: white; */
+  background-color: rgba(255, 255, 255, .2);
 }
 
 .steps h2 {
