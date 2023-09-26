@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  /* width: 100vh; */
+  width: 100%;
   margin: 0;
 }
 
@@ -23,9 +23,14 @@ h1, h2 {
   margin: 15px 0 15px 0;
 }
 
+h2 {
+  padding-left: 40px;
+}
+
 .menu {
   background-image: url(../images/menubg.jpg);
-  width: 50%;
+  background-size: cover;
+  width: 750px;
   margin: 15px auto;
   height: 100%;
   padding-bottom: 60px;
@@ -37,7 +42,16 @@ h1, h2 {
   padding: 5px;
   list-style-type: none;
   text-align: center;
+}
 
+.menu li a {
+  color: black;
+}
+
+.menu li a:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul {

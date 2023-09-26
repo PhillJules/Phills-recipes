@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  /*  */
+  /* width: 100%; */
+  margin: 0;
 }
 
 body {
-  /* text-align: center; */
   background-image: url(../images/recipebg.jpg);
   background-size: cover;
 }
@@ -39,6 +39,7 @@ ul {
 p {
   font-weight: 600;
   font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .steps li {
